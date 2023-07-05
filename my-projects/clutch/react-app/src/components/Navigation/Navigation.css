@@ -1,0 +1,32 @@
+.profile-dropdown {
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-main{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  background-color: #151515;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.9vw;
+  height: 80px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.session-links{
+
+}
+.nav-title{
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #151515;
+  padding-left: 20px;
+}

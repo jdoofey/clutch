@@ -1,0 +1,10 @@
+/* TODO Add site wide styles */
+@import url("https://fonts.googleapis.com/css?family=Blinker");
+
+* {
+  font-family: "Blinker" ;
+  background-color: #10202F;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
