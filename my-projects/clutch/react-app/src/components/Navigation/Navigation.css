@@ -1,25 +1,95 @@
 .profile-dropdown {
   position: absolute;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+
+}
 .hidden {
   display: none;
 }
 
 .nav-main{
+  top: 0;
+  width: 100vw;
   border: 1px solid red;
-  display: flex;
-  flex-direction: row;
   background-color: #151515;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 99.9vw;
-  height: 80px;
+  display: flex;
+
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.nav-links a {
+  color: #fff;
+  background-color: #151515;
 }
 
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  background-color: #151515;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+  background-color: #151515;
+}
+
+/* DROPDOWN MENU */
+.dropdown-list-ele {
+  position: relative;
+}
+
+.dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #4c9e9e;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
 .session-links{
 
 }
