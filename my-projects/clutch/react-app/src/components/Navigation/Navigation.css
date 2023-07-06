@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  background-color: transparent;
 }
 
 li {
@@ -38,7 +39,7 @@ li {
 }
 .nav-links a {
   color: #fff;
-  background-color: #151515;
+  background-color: transparent;
 }
 
 .menu {
@@ -49,7 +50,9 @@ li {
 }
 
 .menu li:hover {
-  background-color: #4c9e9e;
+  /* TODO decide to change font color or
+  bg color on hover*/
+  background-color: #626262;
   border-radius: 5px;
   transition: 0.3s ease;
 }
@@ -59,15 +62,15 @@ li {
   background-color: #151515;
 }
 
-/* DROPDOWN MENU */
+
 .dropdown-list-ele {
   position: relative;
 }
 
 .dropdown {
-  background-color: rgb(1, 139, 139);
+
   padding: 1em 0;
-  position: absolute; /*WITH RESPECT TO PARENT*/
+  position: absolute;
   display: none;
   border-radius: 8px;
   top: 35px;
