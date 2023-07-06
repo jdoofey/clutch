@@ -68,34 +68,37 @@ li {
 }
 
 .dropdown {
-
+  border: 1px solid gold;
   padding: 1em 0;
   position: absolute;
   display: none;
   border-radius: 8px;
-  top: 35px;
+  top: 30px;
+  background-color: transparent;
+  background-color: #212121;
 }
 
 .dropdown li + li {
   margin-top: 10px;
+  background-color: #212121;
+
 }
 
 .dropdown li {
   padding: 0.5em 1em;
   width: 8em;
   text-align: center;
+  background-color: #212121;
 }
 
 .dropdown li:hover {
   background-color: #4c9e9e;
 }
 
-.services:hover .dropdown {
+.dropdown-list-ele:hover .dropdown {
   display: block;
 }
-.session-links{
 
-}
 .nav-title{
   position: relative;
   font-size: 40px;
